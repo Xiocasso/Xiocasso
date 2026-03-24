@@ -2,7 +2,7 @@
 
 I build runtime infrastructure for AI agents — the layer between the model and the chaos.
 
-Right now I'm working on **[Identity OS](https://github.com/xiocasso/identity-os)**, an open-source behavioral middleware that gives AI agents persistent personality, drift detection, and stress-adaptive guardrails. It sits on top of LangGraph, CrewAI, or OpenAI Agents SDK and tells your agent what it *can* and *can't* do — every single turn.
+Right now I'm working on **Identity OS**, a behavioral middleware that gives AI agents persistent personality, drift detection, and stress-adaptive guardrails. It sits on top of LangGraph, CrewAI, or OpenAI Agents SDK and tells your agent what it *can* and *can't* do — every single turn.
 
 ---
 
@@ -10,7 +10,7 @@ Right now I'm working on **[Identity OS](https://github.com/xiocasso/identity-os
 
 Your agent sends behavioral observations. Identity OS returns a read-only **ExecutionContract** — a constraint set covering allowed actions, decision style, energy, stress state, and drift status. Deterministic. Auditable. Framework-agnostic.
 
-In adversarial testing, Identity OS **blocked 100% of forbidden actions** across both LangGraph and CrewAI. Without it, 100% executed unchecked.
+In adversarial testing, Identity OS **blocked 100% of forbidden actions** across multiple agent frameworks. Without it, 100% executed unchecked.
 
 ---
 
@@ -34,7 +34,6 @@ In adversarial testing, Identity OS **blocked 100% of forbidden actions** across
 
 ### Where to find me
 
-- **Identity OS** — [github.com/xiocasso/identity-os](https://github.com/xiocasso/identity-os)
 - **Email** — xiocasso@outlook.com
 
 ---
