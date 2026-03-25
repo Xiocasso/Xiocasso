@@ -46,9 +46,7 @@ Your agent sends a behavioral observation. Identity OS returns a read-only **Exe
 
 ---
 
-### Links
-
-[API](https://api.identity-os.dev) · [Docs](https://docs.identity-os.dev) · [Landing Page](https://xiocasso.github.io/identityOs/) · [xiocasso@outlook.com](mailto:xiocasso@outlook.com) · [@IdentityOS](https://x.com/ItdentityOS) · [LinkedIn](https://linkedin.com/in/yunpeng-xiong-676089137/)
+<a href="https://api.identity-os.dev"><img src="https://raw.githubusercontent.com/Xiocasso/Xiocasso/main/links.svg" alt="Links" width="100%"/></a>
 
 ---
 
