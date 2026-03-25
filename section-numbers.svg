@@ -1,0 +1,50 @@
+<svg width="860" height="220" viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="220" fill="#0a0a0a" rx="6"/>
+
+  <!-- Section label -->
+  <line x1="32" y1="40" x2="48" y2="40" stroke="#555550" stroke-width="1"/>
+  <text x="56" y="44" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#555550" letter-spacing="0.12em">THE NUMBERS</text>
+
+  <!-- Grid background lines -->
+  <line x1="32" y1="70" x2="828" y2="70" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="32" y1="140" x2="828" y2="140" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="32" y1="210" x2="828" y2="210" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+
+  <!-- Col dividers -->
+  <line x1="204" y1="60" x2="204" y2="200" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="376" y1="60" x2="376" y2="200" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="548" y1="60" x2="548" y2="200" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="720" y1="60" x2="720" y2="200" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <!-- Stat 1 -->
+  <text x="32" y="100" font-family="'IBM Plex Mono', monospace" font-size="22" font-weight="600" fill="#e8e8e0">2,000+</text>
+  <text x="32" y="122" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#555550" letter-spacing="0.06em">ADVERSARIAL TURNS</text>
+  <text x="32" y="136" font-family="'IBM Plex Sans', sans-serif" font-size="11" fill="#444440">validated across 4 scenarios</text>
+
+  <!-- Stat 2 -->
+  <text x="212" y="100" font-family="'IBM Plex Mono', monospace" font-size="22" font-weight="600" fill="#e8e8e0">433+</text>
+  <text x="212" y="122" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#555550" letter-spacing="0.06em">AUTOMATED TESTS</text>
+  <text x="212" y="136" font-family="'IBM Plex Sans', sans-serif" font-size="11" fill="#444440">all passing</text>
+
+  <!-- Stat 3 -->
+  <text x="384" y="100" font-family="'IBM Plex Mono', monospace" font-size="22" font-weight="600" fill="#e8e8e0">44/44</text>
+  <text x="384" y="122" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#555550" letter-spacing="0.06em">PRODUCTION TESTS</text>
+  <text x="384" y="136" font-family="'IBM Plex Sans', sans-serif" font-size="11" fill="#444440">on live deployment</text>
+
+  <!-- Stat 4 -->
+  <text x="556" y="100" font-family="'IBM Plex Mono', monospace" font-size="22" font-weight="600" fill="#e8e8e0">3</text>
+  <text x="556" y="122" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#555550" letter-spacing="0.06em">FRAMEWORKS</text>
+  <text x="556" y="136" font-family="'IBM Plex Sans', sans-serif" font-size="11" fill="#444440">LangGraph · CrewAI · Agents SDK</text>
+
+  <!-- Stat 5 — accent -->
+  <text x="728" y="100" font-family="'IBM Plex Mono', monospace" font-size="22" font-weight="600" fill="#c8ff00">0</text>
+  <text x="728" y="122" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#555550" letter-spacing="0.06em">FORBIDDEN ACTIONS</text>
+  <text x="728" y="136" font-family="'IBM Plex Sans', sans-serif" font-size="11" fill="#444440">blocked in every scenario</text>
+
+  <!-- Row 2: stress recovery -->
+  <rect x="32" y="154" width="796" height="46" rx="3" fill="#111111"/>
+  <rect x="32" y="154" width="3" height="46" fill="#00ffc8" rx="1"/>
+  <text x="48" y="173" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#555550" letter-spacing="0.08em">STRESS RECOVERY</text>
+  <text x="48" y="190" font-family="'IBM Plex Mono', monospace" font-size="12" fill="#888880">OVER → MED within <tspan fill="#00ffc8" font-weight="600">40 calm cycles</tspan> · no manual reset required</text>
+</svg>
