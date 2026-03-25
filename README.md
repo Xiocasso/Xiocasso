@@ -1,13 +1,8 @@
 <div align="center">
+  <img src="banner.svg" alt="Identity OS" width="100%"/>
+</div>
 
-![Identity OS](https://img.shields.io/badge/LIVE-api.identity--os.dev-00ffc8?style=flat-square&labelColor=0a0a0a)
-![Tests](https://img.shields.io/badge/tests-44%2F44_passing-c8ff00?style=flat-square&labelColor=0a0a0a)
-![Version](https://img.shields.io/badge/version-v0.9.0--beta-555?style=flat-square&labelColor=0a0a0a)
-![Status](https://img.shields.io/badge/status-public_beta-555?style=flat-square&labelColor=0a0a0a)
-
-# xiocasso
-
-**Runtime infrastructure for AI agents — the layer between the model and the chaos.**
+<div align="center">
 
 Building [Identity OS](https://xiocasso.github.io/identityOs/) · behavioral middleware that gives AI agents persistent personality, drift detection, and stress-adaptive guardrails.
 
@@ -20,7 +15,6 @@ Building [Identity OS](https://xiocasso.github.io/identityOs/) · behavioral mid
 Your agent sends a behavioral observation. Identity OS returns a read-only **ExecutionContract** — allowed actions, forbidden actions, decision style, energy level, stress state, and drift flag. Deterministic. Auditable. Framework-agnostic.
 
 > Not by telling the model *"don't do this."* By removing the option entirely.
-
 ```json
 {
   "allowed_actions": ["search_web", "read_file", "draft_reply"],
